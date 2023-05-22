@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("myfont.woff2"),
+       url("myfont.woff");
+}
+
+body {
+  font-family: "MyFont", Arial, sans-serif;
+}
+
+h1 {
+  font-family: "MyFont", Arial, sans-serif;
+}
+
+/* Применение шрифта к классу .my-class */
+.my-class {
+  font-family: "MyFont", Arial, sans-serif;
+}
